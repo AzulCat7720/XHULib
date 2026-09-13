@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  图书馆 OPAC 是校内 HTTP 明文地址（202.115.151.118:8080）。
+  Android 9+ 默认禁止明文流量，这里只对该主机开放，其余仍强制 HTTPS。
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">202.115.151.118</domain>
+    </domain-config>
+</network-security-config>

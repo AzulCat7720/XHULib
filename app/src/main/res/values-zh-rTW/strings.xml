@@ -1,0 +1,318 @@
+<resources>
+    <string name="app_name">西瓜小圖</string>
+
+    <!-- 底部导航 -->
+    <string name="tab_home">首頁</string>
+    <string name="tab_discover">探索</string>
+    <string name="tab_mine">我的</string>
+
+    <!-- 首页 -->
+    <string name="search_hint">搜尋館藏書目</string>
+    <string name="notifications">訊息通知</string>
+    <string name="current_loans">目前借閱</string>
+    <string name="id_card">證件資訊</string>
+
+    <!-- 通用 -->
+    <string name="retry">重試</string>
+    <string name="refresh">重新整理</string>
+    <string name="empty_record">暫無記錄</string>
+    <string name="loading">載入中…</string>
+    <string name="back">返回</string>
+    <string name="more">查看更多</string>
+
+    <!-- 需要到网页端办理的提示 -->
+    <string name="goto_web_hint">該功能需在圖書館網站辦理，請前往：</string>
+    <string name="goto_web_url">http://202.115.151.118:8080/</string>
+    <string name="open_in_browser">用瀏覽器開啟</string>
+
+    <!-- 登录 -->
+    <string name="login_title">登入</string>
+    <string name="login_subtitle">使用西華大學圖書館帳號登入</string>
+    <string name="login_network_hint">圖書館伺服器僅限校內存取，請先連線校園網路或學校 VPN。</string>
+    <string name="login_type_label">登入方式</string>
+    <string name="login_password">密碼</string>
+    <string name="login_captcha">驗證碼</string>
+    <string name="login_captcha_need_number">請先填寫帳號</string>
+    <string name="login_captcha_retry">點選重試</string>
+    <string name="login_captcha_desc">驗證碼圖片，點選可重新整理</string>
+    <string name="login_captcha_hint">請輸入圖片中的 4 位字元，看不清楚可以點選圖片重新整理。</string>
+    <string name="login_prefilled_hint">已自動填入本機儲存的帳號和密碼，只需輸入驗證碼。</string>
+    <string name="login_remember_password">記住密碼</string>
+    <string name="login_remember_password_desc">密碼只加密儲存在本機，不會上傳</string>
+    <string name="login_show_password">顯示密碼</string>
+    <string name="login_hide_password">隱藏密碼</string>
+    <string name="login_action">登入</string>
+    <string name="login_submitting">正在登入…</string>
+    <string name="login_preparing">正在取得驗證碼…</string>
+
+    <!-- 切换账号 -->
+    <string name="account_switch_title">切換帳號</string>
+    <string name="account_list_hint">點選帳號即可切換；長按帳號或點選右側圖示即可刪除本機儲存的帳號。</string>
+    <string name="account_last_used">最後使用：%1$s</string>
+    <string name="account_last_used_unknown">最後使用時間未知</string>
+    <string name="account_delete">刪除帳號</string>
+    <string name="account_delete_title">刪除本機帳號</string>
+    <string name="account_delete_message">將刪除本機儲存的 %1$s 及其密碼，下次使用需要重新輸入帳號和密碼。</string>
+    <string name="account_expired_title">登入狀態已失效</string>
+    <string name="account_expired_message">該帳號登入狀態已失效，請重新登入。</string>
+    <string name="account_empty">本機還沒有儲存的帳號</string>
+    <string name="account_switch_failed">切換失敗，請重試</string>
+    <string name="account_relogin">重新登入</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">設定</string>
+    <string name="settings_section_server">關於</string>
+    <string name="settings_server_address">伺服器位址</string>
+    <string name="settings_server_readonly">唯讀</string>
+    <string name="settings_about">版本</string>
+    <string name="settings_about_value">%1$s %2$s</string>
+    <string name="settings_version_unknown">版本未知</string>
+    <string name="settings_section_readme">說明</string>
+    <string name="settings_readme">本應用程式是學生自製的非官方用戶端，與西華大學圖書館及江蘇匯文軟體公司均無關聯，資料僅供參考，請以圖書館官方系統為準。\n館藏、借閱、證件等資料全部來自學校圖書館書目檢索系統（OPAC），本應用程式不架設任何伺服器，也不向任何伺服器儲存或上傳個人資訊。\n圖書館伺服器僅限校內存取，使用時必須連線校園網路或學校 VPN。\n帳號、密碼與登入憑證只加密儲存在本機，可隨時在設定中登出或刪除。</string>
+    <string name="settings_section_danger">危險操作</string>
+    <string name="settings_logout">登出</string>
+    <string name="settings_logout_desc">清除登入狀態，保留本機儲存的帳號</string>
+    <string name="settings_logout_confirm_title">要登出嗎？</string>
+    <string name="settings_logout_confirm_message">將登出目前帳號並清除登入狀態。本機儲存的帳號與密碼會保留，下次只需輸入驗證碼。</string>
+    <string name="settings_logout_forget">登出並刪除本機帳號</string>
+    <string name="settings_logout_forget_desc">同時刪除本機儲存的帳號與密碼</string>
+    <string name="settings_logout_forget_confirm_title">要登出並刪除本機帳號嗎？</string>
+    <string name="settings_logout_forget_confirm_message">將登出並刪除本機儲存的帳號與密碼，下次使用需要重新輸入完整的帳號和密碼，且無法復原。</string>
+
+    <!-- 设置 · 显示 -->
+    <string name="settings_section_display">顯示</string>
+    <string name="settings_animations">轉場動畫</string>
+    <string name="settings_animations_desc">關閉後頁面切換不再播放動畫，操作更俐落</string>
+    <string name="settings_section_storage">本機資料</string>
+    <string name="settings_cache">離線快取</string>
+    <string name="settings_cache_desc">沒連校園網路時可查看上次的資料 · 目前佔用 %1$s</string>
+    <string name="settings_cache_clear">清除</string>
+
+    <!-- 发现页分类下拉 -->
+    <string name="discover_class_title">分類</string>
+    <string name="discover_pick_class">選擇分類</string>
+    <string name="discover_class_expand">展開分類</string>
+    <string name="discover_class_collapse">收合分類</string>
+
+    <!-- 读者荐购（只读） -->
+    <string name="asord_title">讀者薦購</string>
+    <string name="asord_catalog_class">徵訂分類</string>
+    <string name="asord_catalog_class_no">分類號 %1$s</string>
+    <string name="asord_catalog_recommend_count">已有 %1$s 人薦購</string>
+    <string name="asord_catalog_empty">該分類下暫無徵訂書目</string>
+    <string name="asord_catalog_notice">以下是圖書館的徵訂目錄與薦購人數。送出薦購需要登入圖書館網站辦理，本應用程式暫不代辦。</string>
+    <string name="asord_note">處理備註：%1$s</string>
+    <string name="asord_submit_notice">送出薦購需要登入圖書館網站，並填寫題名、著者、ISBN 等資訊。本應用程式暫不代辦，請前往圖書館網站辦理。</string>
+    <string name="login_session_expired">登入狀態已過期（圖書館系統的登入狀態維持時間較短）。帳號密碼已自動填好，請重新輸入驗證碼。</string>
+    <string name="load_more">載入更多</string>
+    <!-- 热门推荐 -->
+    <string name="hot_title">熱門推薦</string>
+    <string name="home_hot_more">更多</string>
+
+    <!-- 期刊导航 -->
+    <string name="peri_title">期刊導覽</string>
+    <string name="peri_class_title">學科</string>
+    <string name="peri_empty">該條件下暫無期刊</string>
+    <string name="peri_issn">ISSN</string>
+    <string name="peri_publisher">出版社</string>
+    <string name="peri_pub_year">出版年</string>
+    <string name="peri_call_no">索書號</string>
+    <string name="peri_doc_type">文獻類型</string>
+    <string name="peri_order_year">訂購年度</string>
+    <string name="peri_location">分配地</string>
+    <string name="peri_year_empty">圖書館暫未對本應用程式下發訂購資料（該欄目需登入後查看）</string>
+
+    <!-- 我的页：网页端办理的两个栏目 -->
+    <string name="mine_email_verify">點選驗證</string>
+    <string name="course_manage_title">課程完成度</string>
+    <string name="course_manage_desc">新增或管理課程需到圖書館網站辦理</string>
+    <string name="notice_detail_title">通知詳情</string>
+    <string name="notice_detail_empty">暫無記錄</string>
+    <string name="settings_github">GitHub 儲存庫</string>
+    <string name="settings_night_mode">夜間模式</string>
+    <string name="settings_night_mode_system">目前跟隨系統</string>
+    <string name="settings_night_mode_manual">已手動設定</string>
+    <string name="settings_follow_system">跟隨系統</string>
+    <string name="settings_background">自訂背景圖片</string>
+    <string name="settings_background_desc">選一張本機圖片作為全域背景</string>
+    <string name="settings_background_set">已設定，可重新選擇或清除</string>
+    <string name="settings_background_pick">選擇</string>
+    <string name="settings_background_clear">清除</string>
+    <string name="disclaimer_title">免責聲明</string>
+    <string name="disclaimer_accept">同意並繼續使用</string>
+    <string name="disclaimer_decline">不同意，離開</string>
+    <string name="theme_switch_to_light">切換到日間模式</string>
+    <string name="theme_switch_to_dark">切換到夜間模式</string>
+
+    <!-- 我的页各栏目 -->
+    <string name="section_current_loans">目前借閱</string>
+    <string name="section_loan_history">借閱歷史</string>
+    <string name="section_bookshelf">我的書架</string>
+    <string name="section_reviews">我的書評</string>
+    <string name="section_asord_history">薦購歷史</string>
+    <string name="section_search_history">檢索歷史</string>
+    <string name="section_courses">我的課程</string>
+    <string name="section_holds">預約資訊</string>
+    <string name="section_delegates">委託資訊</string>
+    <string name="section_book_loss">書刊遺失</string>
+    <string name="section_account">帳目清單</string>
+    <string name="section_credits">我的積分</string>
+
+    <!-- 需到图书馆网站办理的功能 -->
+    <string name="webonly_fines">違規繳款</string>
+    <string name="webonly_fines_message">違規繳款需要核對身分並完成付款，本應用程式暫不代辦。請前往圖書館書目檢索系統處理。</string>
+    <string name="webonly_report_loss">讀者掛失</string>
+    <string name="webonly_report_loss_message">掛失後圖書證將立即無法使用，且需要圖書館工作人員才能解除，本應用程式不代為操作。請前往圖書館書目檢索系統辦理。</string>
+    <string name="webonly_email_verify">點選驗證</string>
+    <string name="webonly_email_verify_message">電子郵件驗證需要接收驗證郵件並回填驗證碼，屬於寫入操作，本應用程式暫不代辦。請前往圖書館書目檢索系統辦理。</string>
+    <string name="webonly_course_manage">課程完成度</string>
+    <string name="webonly_course_manage_message">新增/管理課程會修改你在圖書館系統中的課程訂閱（上限 10 門），屬於寫入操作，本應用程式暫不代辦。請前往圖書館書目檢索系統辦理。</string>
+
+    <!-- 底部导航 -->
+
+    <!-- 通用错误 -->
+    <string name="error_session_expired">登入狀態已失效</string>
+    <string name="error_network">網路請求失敗</string>
+    <string name="error_load_failed">載入失敗</string>
+    <string name="error_no_host">無法解析圖書館伺服器位址，請檢查網路</string>
+    <string name="error_timeout">連線圖書館伺服器逾時</string>
+    <string name="error_refused">連不上圖書館伺服器。該位址僅限校園網路存取，請確認已連線校園網路或學校 VPN</string>
+    <string name="error_not_logged_in">尚未登入</string>
+    <string name="webonly_fallback_title">需前往圖書館網站辦理</string>
+    <string name="error_login_page_changed">圖書館登入頁面結構有變化，暫時無法登入</string>
+    <string name="error_captcha_failed">驗證碼圖片下載失敗</string>
+    <string name="error_password_encode">密碼編碼失敗</string>
+    <string name="error_login_ineffective">登入未生效，請重試</string>
+    <string name="error_captcha_fetch">取得驗證碼失敗，請檢查網路</string>
+    <string name="error_login_failed">登入失敗，請重試</string>
+    <string name="notice_empty">暫無訊息通知</string>
+    <string name="notice_hint">訊息來自圖書館「資訊發布」，需連線校園網路（或學校 VPN）才能重新整理。</string>
+    <string name="notice_cat_hold_arrived">預約到書</string>
+    <string name="notice_cat_delegate_arrived">委託到書</string>
+    <string name="notice_cat_overdue_fine">逾期欠款</string>
+    <string name="notice_cat_overdue_return">逾期催還</string>
+    <string name="notice_cat_announcement">資訊公告</string>
+    <string name="hot_empty">暫無推薦書目</string>
+    <string name="hot_default_metric">熱度</string>
+    <string name="reminder_expiring">即將到期</string>
+    <string name="reminder_overdue">已逾期</string>
+    <string name="loan_empty">目前沒有借閱中的圖書</string>
+    <string name="action_view_all">查看全部</string>
+    <string name="action_all">全部</string>
+    <string name="action_back">返回</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_clear">清空</string>
+    <string name="action_search">搜尋</string>
+    <string name="action_retry">重試</string>
+    <string name="action_relogin">重新登入</string>
+    <string name="mine_web_section">以下需到圖書館網站辦理</string>
+    <string name="reader_fallback_name">讀者</string>
+    <string name="field_cert_no">證件號</string>
+    <string name="field_reader_type">讀者類型</string>
+    <string name="field_department">系別</string>
+    <string name="field_max_books">最大可借</string>
+    <string name="field_max_holds">最大可預約</string>
+    <string name="field_max_delegates">最大可委託</string>
+    <string name="field_barcode">條碼號</string>
+    <string name="field_loan_date">借閱日期</string>
+    <string name="field_due_date">應還日期</string>
+    <string name="field_return_date">歸還日期</string>
+    <string name="field_location">館藏地</string>
+    <string name="field_shelf">書架</string>
+    <string name="field_author">著者</string>
+    <string name="field_publisher">出版社</string>
+    <string name="field_pub_date">出版日期</string>
+    <string name="field_call_no">索書號</string>
+    <string name="field_status">狀態</string>
+    <string name="field_publication">出版資訊</string>
+    <string name="field_asord_date">薦購日期</string>
+    <string name="field_asord_status">薦購狀態</string>
+    <string name="field_note">處理備註</string>
+    <string name="field_hold_date">預約日期</string>
+    <string name="field_deadline">截止日期</string>
+    <string name="field_pickup_place">取書地</string>
+    <string name="field_delegate_date">委託日期</string>
+    <string name="field_change_type">變化類型</string>
+    <string name="field_credit_date">積分日期</string>
+    <string name="field_credit_note">積分備註</string>
+    <string name="credit_decrease">減</string>
+    <string name="greeting_morning">早安</string>
+    <string name="greeting_forenoon">上午好</string>
+    <string name="greeting_noon">午安</string>
+    <string name="greeting_afternoon">下午好</string>
+    <string name="greeting_evening">晚上好</string>
+    <string name="greeting_late_night">夜深了</string>
+    <string name="error_captcha_decode">驗證碼圖片解析失敗</string>
+    <string name="login_err_number">請輸入學號或證件號</string>
+    <string name="login_err_password">請輸入密碼</string>
+    <string name="login_err_captcha">請輸入圖片中的 4 位驗證碼</string>
+    <string name="login_err_captcha_refreshed">驗證碼已重新整理，請重新輸入圖片中的驗證碼</string>
+    <string name="discover_tab_class">分類瀏覽</string>
+    <string name="discover_tab_newbook">新書通報</string>
+    <string name="discover_tab_periodical">期刊導覽</string>
+    <string name="discover_tab_subject">學科參考</string>
+    <string name="discover_pick_class_first">請先選擇分類</string>
+    <string name="discover_empty_class_books">該分類下暫無書目</string>
+    <string name="discover_empty_class_newbooks">該分類下暫無新書</string>
+    <string name="discover_empty_classes">暫無分類</string>
+    <string name="discover_change_subject">換學科</string>
+    <string name="discover_empty_subjects">暫無學科</string>
+    <string name="discover_empty_subject_books">沒有找到該學科的相關書目</string>
+    <string name="peri_tab_pinyin">刊名拼音</string>
+    <string name="peri_tab_letter">西文字母</string>
+    <string name="peri_tab_class">學科導覽</string>
+    <string name="peri_tab_year">年度訂購</string>
+    <string name="common_empty_record">暫無記錄</string>
+    <string name="asord_tab_history">薦購歷史</string>
+    <string name="asord_tab_submit">讀者薦購</string>
+    <string name="asord_tab_catalog">新書目錄推薦</string>
+    <string name="webonly_no_write_hint">本應用程式不會代你送出任何操作。</string>
+    <string name="error_no_browser">沒有找到可以開啟網頁的應用程式</string>
+    <string name="reader_unknown_section">未知欄目</string>
+    <string name="reader_webonly_notice">該欄目有內容，但本應用程式暫不支援在手機端顯示，請前往圖書館網站查看。</string>
+    <string name="book_detail_title">書目詳情</string>
+    <string name="book_detail_fields">書目資訊</string>
+    <string name="book_detail_holdings">館藏資訊</string>
+    <string name="book_detail_empty">未能解析到該書目的更多資訊</string>
+    <string name="book_empty">暫無書目</string>
+    <string name="search_empty">沒有找到相關書目</string>
+    <string name="search_advanced_hide">收合</string>
+    <string name="search_advanced_show">進階選項</string>
+    <string name="search_field_label">檢索項</string>
+    <string name="search_match_label">匹配方式</string>
+    <string name="search_guide">可展開「進階選項」依題名、著者、主題詞、ISBN、出版社或索書號檢索。</string>
+    <string name="search_recent">最近搜尋</string>
+    <string name="offline_no_network">離線資料 · 未連線校園網路</string>
+    <string name="search_field_title">題名</string>
+    <string name="search_field_keyword">主題詞</string>
+    <string name="search_field_isbn">ISBN-ISSN</string>
+    <string name="search_match_forward">前方一致</string>
+    <string name="search_match_full">完全匹配</string>
+    <string name="search_match_any">任意匹配</string>
+    <string name="search_criteria">檢索項：%1$s　匹配：%2$s</string>
+    <string name="notice_field_index">第 %1$d 項</string>
+    <string name="due_overdue_days">已逾期 %1$d 天</string>
+    <string name="due_today">今天到期</string>
+    <string name="due_remaining_days">還剩 %1$d 天</string>
+    <string name="hot_borrow_count">借閱 %1$s</string>
+    <string name="loan_total_count">共 %1$d 本</string>
+    <string name="loan_due">應還 %1$s</string>
+    <string name="discover_subject_books">「%1$s」相關書目</string>
+    <string name="offline_updated_at">離線資料 · 更新於 %1$s</string>
+    <string name="reader_due_date">應還日期：%1$s</string>
+    <string name="search_result_count">「%1$s」的檢索結果：%2$d 筆</string>
+    <string name="book_row_call_no">索書號：%1$s</string>
+    <string name="book_row_holding">館藏：%1$s</string>
+    <string name="book_row_loan_count">借閱 %1$s 冊次</string>
+    <string name="unit_day">日</string>
+    <string name="login_type_cert_no">證件號</string>
+    <string name="login_type_bar_no">條碼號</string>
+    <string name="login_type_email">Email</string>
+    <string name="hot_tab_lend">熱門借閱</string>
+    <string name="hot_tab_score">熱門評分</string>
+    <string name="hot_tab_shelf">熱門收藏</string>
+    <string name="hot_tab_book">熱門圖書</string>
+    <string name="settings_section_language">語言</string>
+    <string name="settings_language">介面語言</string>
+    <string name="error_server">圖書館伺服器傳回錯誤，請稍後再試</string>
+</resources>

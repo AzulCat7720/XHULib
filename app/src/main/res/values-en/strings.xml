@@ -1,0 +1,319 @@
+<resources>
+    <string name="app_name">XHULib</string>
+
+    <!-- Bottom navigation -->
+    <string name="tab_home">Home</string>
+    <string name="tab_discover">Discover</string>
+    <string name="tab_mine">Mine</string>
+
+    <!-- Home -->
+    <string name="search_hint">Search library holdings</string>
+    <string name="notifications">Notifications</string>
+    <string name="current_loans">Current Loans</string>
+    <string name="id_card">Library Card</string>
+
+    <!-- Common -->
+    <string name="retry">Retry</string>
+    <string name="refresh">Refresh</string>
+    <string name="empty_record">No records</string>
+    <string name="loading">Loading…</string>
+    <string name="back">Back</string>
+    <string name="more">View more</string>
+
+    <!-- Hints for tasks that must be done on the website -->
+    <string name="goto_web_hint">This feature must be handled on the library website. Please go to:</string>
+    <string name="goto_web_url">http://202.115.151.118:8080/</string>
+    <string name="open_in_browser">Open in browser</string>
+
+    <!-- Login -->
+    <string name="login_title">Sign In</string>
+    <string name="login_subtitle">Sign in with your Xihua University Library account</string>
+    <string name="login_network_hint">The library server is accessible only from within the campus network. Please connect to the campus network or the university VPN first.</string>
+    <string name="login_type_label">Sign-in method</string>
+    <string name="login_password">Password</string>
+    <string name="login_captcha">Verification code</string>
+    <string name="login_captcha_need_number">Please enter your account first</string>
+    <string name="login_captcha_retry">Tap to retry</string>
+    <string name="login_captcha_desc">Verification code image, tap to refresh</string>
+    <string name="login_captcha_hint">Enter the 4 characters shown in the image. If they are hard to read, tap the image to refresh it.</string>
+    <string name="login_prefilled_hint">The account and password saved on this device have been filled in automatically. You only need to enter the verification code.</string>
+    <string name="login_remember_password">Remember password</string>
+    <string name="login_remember_password_desc">The password is stored encrypted on this device only and is never uploaded</string>
+    <string name="login_show_password">Show password</string>
+    <string name="login_hide_password">Hide password</string>
+    <string name="login_action">Sign In</string>
+    <string name="login_submitting">Signing in…</string>
+    <string name="login_preparing">Getting verification code…</string>
+
+    <!-- Switch account -->
+    <string name="account_switch_title">Switch Account</string>
+    <string name="account_list_hint">Tap an account to switch to it; touch and hold an account, or tap the icon on the right, to delete an account saved on this device.</string>
+    <string name="account_last_used">Last used: %1$s</string>
+    <string name="account_last_used_unknown">Last used time unknown</string>
+    <string name="account_delete">Delete account</string>
+    <string name="account_delete_title">Delete account on this device</string>
+    <string name="account_delete_message">This will delete %1$s and its password from this device. You will need to enter the account and password again next time.</string>
+    <string name="account_expired_title">Sign-in expired</string>
+    <string name="account_expired_message">The sign-in for this account has expired. Please sign in again.</string>
+    <string name="account_empty">No accounts saved on this device yet</string>
+    <string name="account_switch_failed">Switch failed. Please try again.</string>
+    <string name="account_relogin">Sign in again</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_server">About</string>
+    <string name="settings_server_address">Server address</string>
+    <string name="settings_server_readonly">Read-only</string>
+    <string name="settings_about">Version</string>
+    <string name="settings_about_value">%1$s %2$s</string>
+    <string name="settings_version_unknown">Version unknown</string>
+    <string name="settings_section_readme">Notes</string>
+    <string name="settings_readme">This app is an unofficial client made by a student. It is not affiliated with the Xihua University Library or Jiangsu Huiwen Software, and its data is for reference only — please refer to the library\'s official system.\nAll holdings, loan, and library card data comes from the university library\'s Online Public Access Catalogue (OPAC). This app runs no servers of its own and does not save or upload personal information to any server.\nThe library server is accessible only from within the campus network, so you must connect to the campus network or the university VPN while using the app.\nYour account, password, and sign-in credentials are stored encrypted on this device only, and you can sign out or delete them in Settings at any time.</string>
+    <string name="settings_section_danger">Danger Zone</string>
+    <string name="settings_logout">Sign out</string>
+    <string name="settings_logout_desc">Clear the sign-in state but keep accounts saved on this device</string>
+    <string name="settings_logout_confirm_title">Sign out?</string>
+    <string name="settings_logout_confirm_message">You will be signed out of the current account and its sign-in state will be cleared. The account and password saved on this device will be kept, so next time you only need to enter the verification code.</string>
+    <string name="settings_logout_forget">Sign out and delete account on this device</string>
+    <string name="settings_logout_forget_desc">Also delete the account and password saved on this device</string>
+    <string name="settings_logout_forget_confirm_title">Sign out and delete the account on this device?</string>
+    <string name="settings_logout_forget_confirm_message">You will be signed out, and the account and password saved on this device will be deleted. Next time you will need to enter the full account and password again, and this cannot be undone.</string>
+
+    <!-- Settings · Display -->
+    <string name="settings_section_display">Display</string>
+    <string name="settings_animations">Transition animations</string>
+    <string name="settings_animations_desc">When turned off, page transitions play no animation and the app feels snappier</string>
+    <string name="settings_section_storage">Local Data</string>
+    <string name="settings_cache">Offline cache</string>
+    <string name="settings_cache_desc">View your last data when you are not on the campus network · Currently using %1$s</string>
+    <string name="settings_cache_clear">Clear</string>
+
+    <!-- Discover page category drop-down -->
+    <string name="discover_class_title">Category</string>
+    <string name="discover_pick_class">Select category</string>
+    <string name="discover_class_expand">Expand categories</string>
+    <string name="discover_class_collapse">Collapse categories</string>
+
+    <!-- Purchase recommendations (read-only) -->
+    <string name="asord_title">Purchase Recommendations</string>
+    <string name="asord_catalog_class">Acquisition Category</string>
+    <string name="asord_catalog_class_no">Class number %1$s</string>
+    <string name="asord_catalog_recommend_count">%1$s people have recommended it</string>
+    <string name="asord_catalog_empty">No titles in the acquisition list under this category</string>
+    <string name="asord_catalog_notice">Below are the library\'s acquisition list and the number of recommendations. Submitting a purchase recommendation requires signing in on the library website; this app does not handle it for now.</string>
+    <string name="asord_note">Processing note: %1$s</string>
+    <string name="asord_submit_notice">Submitting a purchase recommendation requires signing in on the library website and filling in the title, author, ISBN, and other details. This app does not handle it for now — please go to the library website.</string>
+    <string name="login_session_expired">Your sign-in has expired (the library system keeps sign-ins for only a short time). Your account and password have been filled in automatically; please enter the verification code again.</string>
+    <string name="load_more">Load more</string>
+    <!-- Popular recommendations -->
+    <string name="hot_title">Popular Picks</string>
+    <string name="home_hot_more">More</string>
+
+    <!-- Journal navigation -->
+    <string name="peri_title">Journal Navigator</string>
+    <string name="peri_class_title">Subject</string>
+    <string name="peri_empty">No journals under these conditions</string>
+    <string name="peri_issn">ISSN</string>
+    <string name="peri_publisher">Publisher</string>
+    <string name="peri_pub_year">Publication year</string>
+    <string name="peri_call_no">Call number</string>
+    <string name="peri_doc_type">Document type</string>
+    <string name="peri_order_year">Subscription year</string>
+    <string name="peri_location">Location</string>
+    <string name="peri_year_empty">The library has not yet released subscription data to this app (this section requires signing in)</string>
+
+    <!-- Mine page: two sections handled on the website -->
+    <string name="mine_email_verify">Tap to verify</string>
+    <string name="course_manage_title">Course Completion</string>
+    <string name="course_manage_desc">Adding or managing courses must be done on the library website</string>
+    <string name="notice_detail_title">Notice Details</string>
+    <string name="notice_detail_empty">No records</string>
+    <string name="settings_github">GitHub repository</string>
+    <string name="settings_night_mode">Night mode</string>
+    <string name="settings_night_mode_system">Currently following the system</string>
+    <string name="settings_night_mode_manual">Set manually</string>
+    <string name="settings_follow_system">Follow system</string>
+    <string name="settings_background">Custom background image</string>
+    <string name="settings_background_desc">Pick a local image to use as the global background</string>
+    <string name="settings_background_set">Set. You can pick another image or clear it</string>
+    <string name="settings_background_pick">Choose</string>
+    <string name="settings_background_clear">Clear</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_accept">Agree and continue</string>
+    <string name="disclaimer_decline">Disagree, leave</string>
+    <string name="theme_switch_to_light">Switch to light mode</string>
+    <string name="theme_switch_to_dark">Switch to night mode</string>
+
+    <!-- Mine page sections -->
+    <string name="section_current_loans">Current Loans</string>
+    <string name="section_loan_history">Loan History</string>
+    <string name="section_bookshelf">My Bookshelf</string>
+    <string name="section_reviews">My Reviews</string>
+    <string name="section_asord_history">Recommendation History</string>
+    <string name="section_search_history">Search History</string>
+    <string name="section_courses">My Courses</string>
+    <string name="section_holds">Holds</string>
+    <string name="section_delegates">Delegate Requests</string>
+    <string name="section_book_loss">Reported Lost Items</string>
+    <string name="section_account">Account Statement</string>
+    <string name="section_credits">My Points</string>
+
+    <!-- Features that must be handled on the library website -->
+    <string name="webonly_fines">Fine Payment</string>
+    <string name="webonly_fines_message">Paying fines requires identity verification and a payment, so this app does not handle it for now. Please go to the library catalogue system.</string>
+    <string name="webonly_report_loss">Report Item Lost</string>
+    <string name="webonly_report_loss_message">Once reported, your library card stops working immediately and only library staff can restore it, so this app will not do it for you. Please go to the library catalogue system.</string>
+    <string name="webonly_email_verify">Tap to verify</string>
+    <string name="webonly_email_verify_message">Email verification requires receiving a verification email and entering the code, which is a write operation, so this app does not handle it for now. Please go to the library catalogue system.</string>
+    <string name="webonly_course_manage">Course Completion</string>
+    <string name="webonly_course_manage_message">Adding or managing courses changes your course subscriptions in the library system (up to 10 courses), which is a write operation, so this app does not handle it for now. Please go to the library catalogue system.</string>
+
+    <!-- Bottom navigation -->
+
+    <!-- Common errors -->
+    <string name="error_session_expired">Your sign-in has expired</string>
+    <string name="error_network">Network request failed</string>
+    <string name="error_load_failed">Failed to load</string>
+    <string name="error_no_host">Cannot resolve the library server address. Please check your network.</string>
+    <string name="error_timeout">Timed out connecting to the library server</string>
+    <string name="error_refused">Cannot connect to the library server. This address is accessible only from the campus network, so please make sure you are connected to the campus network or the university VPN</string>
+    <string name="error_not_logged_in">Not signed in yet</string>
+    <string name="webonly_fallback_title">Must be handled on the library website</string>
+    <string name="error_login_page_changed">The layout of the library sign-in page has changed, so signing in is temporarily unavailable</string>
+    <string name="error_captcha_failed">Failed to download the verification code image</string>
+    <string name="error_password_encode">Failed to encode the password</string>
+    <string name="error_login_ineffective">Sign-in did not take effect. Please try again.</string>
+    <string name="error_captcha_fetch">Failed to get the verification code. Please check your network.</string>
+    <string name="error_login_failed">Sign-in failed. Please try again.</string>
+    <string name="notice_empty">No notifications</string>
+    <string name="notice_hint">Messages come from the library\'s “Information Announcements” and can only be refreshed on the campus network (or the university VPN).</string>
+    <string name="notice_cat_hold_arrived">Hold Available</string>
+    <string name="notice_cat_delegate_arrived">Delegate Request Available</string>
+    <string name="notice_cat_overdue_fine">Overdue Charges</string>
+    <string name="notice_cat_overdue_return">Overdue Recall</string>
+    <string name="notice_cat_announcement">Announcement</string>
+    <string name="hot_empty">No recommended titles</string>
+    <string name="hot_default_metric">Popularity</string>
+    <string name="reminder_expiring">Expiring soon</string>
+    <string name="reminder_overdue">Overdue</string>
+    <string name="loan_empty">You have no books on loan</string>
+    <string name="action_view_all">View all</string>
+    <string name="action_all">All</string>
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear all</string>
+    <string name="action_search">Search</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_relogin">Sign in again</string>
+    <string name="mine_web_section">The following must be handled on the library website</string>
+    <string name="reader_fallback_name">Reader</string>
+    <string name="field_cert_no">ID number</string>
+    <string name="field_reader_type">Reader type</string>
+    <string name="field_department">Department</string>
+    <string name="field_max_books">Max. books</string>
+    <string name="field_max_holds">Max. holds</string>
+    <string name="field_max_delegates">Max. delegate requests</string>
+    <string name="field_barcode">Barcode</string>
+    <string name="field_loan_date">Loan date</string>
+    <string name="field_due_date">Due date</string>
+    <string name="field_return_date">Return date</string>
+    <string name="field_location">Location</string>
+    <string name="field_shelf">Shelf</string>
+    <string name="field_author">Author</string>
+    <string name="field_publisher">Publisher</string>
+    <string name="field_pub_date">Publication date</string>
+    <string name="field_call_no">Call number</string>
+    <string name="field_status">Status</string>
+    <string name="field_publication">Publication info</string>
+    <string name="field_asord_date">Recommendation date</string>
+    <string name="field_asord_status">Recommendation status</string>
+    <string name="field_note">Processing note</string>
+    <string name="field_hold_date">Hold date</string>
+    <string name="field_deadline">Deadline</string>
+    <string name="field_pickup_place">Pickup location</string>
+    <string name="field_delegate_date">Delegate request date</string>
+    <string name="field_change_type">Change type</string>
+    <string name="field_credit_date">Points date</string>
+    <string name="field_credit_note">Points note</string>
+    <string name="credit_decrease">Deduct</string>
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_forenoon">Good morning</string>
+    <string name="greeting_noon">Good afternoon</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+    <string name="greeting_late_night">It\'s late</string>
+    <string name="error_captcha_decode">Failed to read the verification code image</string>
+    <string name="login_err_number">Please enter your student ID or ID number</string>
+    <string name="login_err_password">Please enter your password</string>
+    <string name="login_err_captcha">Please enter the 4-character verification code from the image</string>
+    <string name="login_err_captcha_refreshed">The verification code has been refreshed. Please enter the new code from the image.</string>
+    <string name="discover_tab_class">Browse by Category</string>
+    <string name="discover_tab_newbook">New Arrivals</string>
+    <string name="discover_tab_periodical">Journal Navigator</string>
+    <string name="discover_tab_subject">Subject Reference</string>
+    <string name="discover_pick_class_first">Please select a category first</string>
+    <string name="discover_empty_class_books">No titles under this category</string>
+    <string name="discover_empty_class_newbooks">No new books under this category</string>
+    <string name="discover_empty_classes">No categories</string>
+    <string name="discover_change_subject">Switch subject</string>
+    <string name="discover_empty_subjects">No subjects</string>
+    <string name="discover_empty_subject_books">No titles found for this subject</string>
+    <string name="peri_tab_pinyin">Title Pinyin</string>
+    <string name="peri_tab_letter">Western Alphabet</string>
+    <string name="peri_tab_class">Subject Navigator</string>
+    <string name="peri_tab_year">Annual Subscriptions</string>
+    <string name="common_empty_record">No records</string>
+    <string name="asord_tab_history">Recommendation History</string>
+    <string name="asord_tab_submit">Purchase Recommendation</string>
+    <string name="asord_tab_catalog">New Title Recommendations</string>
+    <string name="webonly_no_write_hint">This app will not submit any action on your behalf.</string>
+    <string name="error_no_browser">No app found that can open this web page</string>
+    <string name="reader_unknown_section">Unknown section</string>
+    <string name="reader_webonly_notice">This section has content, but this app cannot display it on mobile for now. Please view it on the library website.</string>
+    <string name="book_detail_title">Title Details</string>
+    <string name="book_detail_fields">Title Information</string>
+    <string name="book_detail_holdings">Holdings</string>
+    <string name="book_detail_empty">Could not retrieve more information about this title</string>
+    <string name="book_empty">No titles</string>
+    <string name="search_empty">No matching titles found</string>
+    <string name="search_advanced_hide">Collapse</string>
+    <string name="search_advanced_show">Advanced options</string>
+    <string name="search_field_label">Search field</string>
+    <string name="search_match_label">Match type</string>
+    <string name="search_guide">Expand “Advanced options” to search by title, author, subject term, ISBN, publisher, or call number.</string>
+    <string name="search_recent">Recent searches</string>
+    <string name="offline_no_network">Offline data · Not on the campus network</string>
+    <string name="search_field_title">Title</string>
+    <string name="search_field_keyword">Subject term</string>
+    <string name="search_field_isbn">ISBN-ISSN</string>
+    <string name="search_match_forward">Starts with</string>
+    <string name="search_match_full">Exact match</string>
+    <string name="search_match_any">Any match</string>
+    <string name="search_criteria">Field: %1$s　Match: %2$s</string>
+    <string name="notice_field_index">Item %1$d</string>
+    <string name="due_overdue_days">%1$d days overdue</string>
+    <string name="due_today">Due today</string>
+    <string name="due_remaining_days">%1$d days left</string>
+    <string name="hot_borrow_count">Borrowed %1$s</string>
+    <string name="loan_total_count">%1$d in total</string>
+    <string name="loan_due">Due %1$s</string>
+    <string name="discover_subject_books">Titles related to “%1$s”</string>
+    <string name="offline_updated_at">Offline data · Updated %1$s</string>
+    <string name="reader_due_date">Due date: %1$s</string>
+    <string name="search_result_count">Search results for “%1$s”: %2$d</string>
+    <string name="book_row_call_no">Call number: %1$s</string>
+    <string name="book_row_holding">Holdings: %1$s</string>
+    <string name="book_row_loan_count">Borrowed %1$s times</string>
+    <string name="unit_day">days</string>
+    <string name="login_type_cert_no">ID number</string>
+    <string name="login_type_bar_no">Barcode</string>
+    <string name="login_type_email">Email</string>
+    <string name="hot_tab_lend">Most Borrowed</string>
+    <string name="hot_tab_score">Top Rated</string>
+    <string name="hot_tab_shelf">Most Collected</string>
+    <string name="hot_tab_book">Popular Books</string>
+    <!-- Language -->
+    <string name="settings_section_language">Language</string>
+    <string name="settings_language">Display language</string>
+    <string name="error_server">The library server returned an error. Please try again later.</string>
+</resources>

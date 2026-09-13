@@ -1,0 +1,318 @@
+<resources>
+    <string name="app_name">西瓜小图</string>
+
+    <!-- 底部导航 -->
+    <string name="tab_home">首页</string>
+    <string name="tab_discover">发现</string>
+    <string name="tab_mine">我的</string>
+
+    <!-- 首页 -->
+    <string name="search_hint">搜索馆藏书目</string>
+    <string name="notifications">消息通知</string>
+    <string name="current_loans">当前借阅</string>
+    <string name="id_card">证件信息</string>
+
+    <!-- 通用 -->
+    <string name="retry">重试</string>
+    <string name="refresh">刷新</string>
+    <string name="empty_record">暂无记录</string>
+    <string name="loading">加载中…</string>
+    <string name="back">返回</string>
+    <string name="more">查看更多</string>
+
+    <!-- 需要到网页端办理的提示 -->
+    <string name="goto_web_hint">该功能需在图书馆网站办理，请前往：</string>
+    <string name="goto_web_url">http://202.115.151.118:8080/</string>
+    <string name="open_in_browser">用浏览器打开</string>
+
+    <!-- 登录 -->
+    <string name="login_title">登录</string>
+    <string name="login_subtitle">使用西华大学图书馆账号登录</string>
+    <string name="login_network_hint">图书馆服务器仅限校内访问，请先连接校园网或学校 VPN。</string>
+    <string name="login_type_label">登录方式</string>
+    <string name="login_password">密码</string>
+    <string name="login_captcha">验证码</string>
+    <string name="login_captcha_need_number">请先填写账号</string>
+    <string name="login_captcha_retry">点击重试</string>
+    <string name="login_captcha_desc">验证码图片，点击可刷新</string>
+    <string name="login_captcha_hint">请输入图片中的 4 位字符，看不清可以点击图片刷新。</string>
+    <string name="login_prefilled_hint">已自动填入本机保存的账号和密码，只需输入验证码。</string>
+    <string name="login_remember_password">记住密码</string>
+    <string name="login_remember_password_desc">密码只加密保存在本机，不会上传</string>
+    <string name="login_show_password">显示密码</string>
+    <string name="login_hide_password">隐藏密码</string>
+    <string name="login_action">登录</string>
+    <string name="login_submitting">正在登录…</string>
+    <string name="login_preparing">正在获取验证码…</string>
+
+    <!-- 切换账号 -->
+    <string name="account_switch_title">切换账号</string>
+    <string name="account_list_hint">点击账号即可切换；长按账号或点击右侧图标可以删除本机保存的账号。</string>
+    <string name="account_last_used">最后使用：%1$s</string>
+    <string name="account_last_used_unknown">最后使用时间未知</string>
+    <string name="account_delete">删除账号</string>
+    <string name="account_delete_title">删除本机账号</string>
+    <string name="account_delete_message">将删除本机保存的 %1$s 及其密码，下次使用需要重新输入账号和密码。</string>
+    <string name="account_expired_title">登录状态已失效</string>
+    <string name="account_expired_message">该账号登录状态已失效，请重新登录。</string>
+    <string name="account_empty">本机还没有保存的账号</string>
+    <string name="account_switch_failed">切换失败，请重试</string>
+    <string name="account_relogin">重新登录</string>
+
+    <!-- 设置 -->
+    <string name="settings_title">设置</string>
+    <string name="settings_section_server">关于</string>
+    <string name="settings_server_address">服务器地址</string>
+    <string name="settings_server_readonly">只读</string>
+    <string name="settings_about">版本</string>
+    <string name="settings_about_value">%1$s %2$s</string>
+    <string name="settings_version_unknown">版本未知</string>
+    <string name="settings_section_readme">说明</string>
+    <string name="settings_readme">本应用是学生自制的非官方客户端，与西华大学图书馆及江苏汇文软件公司均无关联，数据仅供参考，请以图书馆官方系统为准。\n馆藏、借阅、证件等数据全部来自学校图书馆书目检索系统（OPAC），本应用不架设任何服务器，也不向任何服务器保存或上传个人信息。\n图书馆服务器仅限校内访问，使用时必须连接校园网或学校 VPN。\n账号、密码与登录凭据只加密保存在本机，可随时在设置中退出或删除。</string>
+    <string name="settings_section_danger">危险操作</string>
+    <string name="settings_logout">退出登录</string>
+    <string name="settings_logout_desc">清除登录状态，保留本机保存的账号</string>
+    <string name="settings_logout_confirm_title">退出登录？</string>
+    <string name="settings_logout_confirm_message">将退出当前账号并清除登录状态。本机保存的账号与密码会保留，下次只需输入验证码。</string>
+    <string name="settings_logout_forget">退出并删除本机账号</string>
+    <string name="settings_logout_forget_desc">同时删除本机保存的账号与密码</string>
+    <string name="settings_logout_forget_confirm_title">退出并删除本机账号？</string>
+    <string name="settings_logout_forget_confirm_message">将退出登录并删除本机保存的账号与密码，下次使用需要重新输入完整的账号和密码，且无法撤销。</string>
+
+    <!-- 设置 · 显示 -->
+    <string name="settings_section_display">显示</string>
+    <string name="settings_animations">过渡动画</string>
+    <string name="settings_animations_desc">关闭后页面切换不再播放动画，操作更干脆</string>
+    <string name="settings_section_storage">本地数据</string>
+    <string name="settings_cache">离线缓存</string>
+    <string name="settings_cache_desc">没连校园网时可查看上次的数据 · 当前占用 %1$s</string>
+    <string name="settings_cache_clear">清除</string>
+
+    <!-- 发现页分类下拉 -->
+    <string name="discover_class_title">分类</string>
+    <string name="discover_pick_class">选择分类</string>
+    <string name="discover_class_expand">展开分类</string>
+    <string name="discover_class_collapse">收起分类</string>
+
+    <!-- 读者荐购（只读） -->
+    <string name="asord_title">读者荐购</string>
+    <string name="asord_catalog_class">征订分类</string>
+    <string name="asord_catalog_class_no">分类号 %1$s</string>
+    <string name="asord_catalog_recommend_count">已有 %1$s 人荐购</string>
+    <string name="asord_catalog_empty">该分类下暂无征订书目</string>
+    <string name="asord_catalog_notice">以下是图书馆的征订目录与荐购人数。提交荐购需要登录图书馆网站办理，本应用暂不代办。</string>
+    <string name="asord_note">处理备注：%1$s</string>
+    <string name="asord_submit_notice">提交荐购需要登录图书馆网站，并填写题名、责任者、ISBN 等信息。本应用暂不代办，请前往图书馆网站办理。</string>
+    <string name="login_session_expired">登录状态已过期（图书馆系统的登录态保持时间较短）。账号密码已自动填好，请重新输入验证码。</string>
+    <string name="load_more">加载更多</string>
+    <!-- 热门推荐 -->
+    <string name="hot_title">热门推荐</string>
+    <string name="home_hot_more">更多</string>
+
+    <!-- 期刊导航 -->
+    <string name="peri_title">期刊导航</string>
+    <string name="peri_class_title">学科</string>
+    <string name="peri_empty">该条件下暂无期刊</string>
+    <string name="peri_issn">ISSN</string>
+    <string name="peri_publisher">出版社</string>
+    <string name="peri_pub_year">出版年</string>
+    <string name="peri_call_no">索书号</string>
+    <string name="peri_doc_type">文献类型</string>
+    <string name="peri_order_year">订购年度</string>
+    <string name="peri_location">分配地</string>
+    <string name="peri_year_empty">图书馆暂未对本应用下发订购数据（该栏目需登录后查看）</string>
+
+    <!-- 我的页：网页端办理的两个栏目 -->
+    <string name="mine_email_verify">点击验证</string>
+    <string name="course_manage_title">课程完成度</string>
+    <string name="course_manage_desc">添加或管理课程需到图书馆网站办理</string>
+    <string name="notice_detail_title">通知详情</string>
+    <string name="notice_detail_empty">暂无记录</string>
+    <string name="settings_github">GitHub 仓库</string>
+    <string name="settings_night_mode">夜间模式</string>
+    <string name="settings_night_mode_system">当前跟随系统</string>
+    <string name="settings_night_mode_manual">已手动设置</string>
+    <string name="settings_follow_system">跟随系统</string>
+    <string name="settings_background">自定义背景图片</string>
+    <string name="settings_background_desc">选一张本地图片作为全局背景</string>
+    <string name="settings_background_set">已设置，可重新选择或清除</string>
+    <string name="settings_background_pick">选择</string>
+    <string name="settings_background_clear">清除</string>
+    <string name="disclaimer_title">免责声明</string>
+    <string name="disclaimer_accept">同意并继续使用</string>
+    <string name="disclaimer_decline">不同意，离开</string>
+    <string name="theme_switch_to_light">切换到日间模式</string>
+    <string name="theme_switch_to_dark">切换到夜间模式</string>
+
+    <!-- 我的页各栏目 -->
+    <string name="section_current_loans">当前借阅</string>
+    <string name="section_loan_history">借阅历史</string>
+    <string name="section_bookshelf">我的书架</string>
+    <string name="section_reviews">我的书评</string>
+    <string name="section_asord_history">荐购历史</string>
+    <string name="section_search_history">检索历史</string>
+    <string name="section_courses">我的课程</string>
+    <string name="section_holds">预约信息</string>
+    <string name="section_delegates">委托信息</string>
+    <string name="section_book_loss">书刊遗失</string>
+    <string name="section_account">账目清单</string>
+    <string name="section_credits">我的积分</string>
+
+    <!-- 需到图书馆网站办理的功能 -->
+    <string name="webonly_fines">违章缴款</string>
+    <string name="webonly_fines_message">违章缴款需要核对身份并完成支付，本应用暂不代办。请前往图书馆书目检索系统处理。</string>
+    <string name="webonly_report_loss">读者挂失</string>
+    <string name="webonly_report_loss_message">挂失后图书证将立即无法使用，且需要图书馆工作人员才能解除，本应用不代为操作。请前往图书馆书目检索系统办理。</string>
+    <string name="webonly_email_verify">点击验证</string>
+    <string name="webonly_email_verify_message">邮箱验证需要接收验证邮件并回填校验码，属写操作，本应用暂不代办。请前往图书馆书目检索系统办理。</string>
+    <string name="webonly_course_manage">课程完成度</string>
+    <string name="webonly_course_manage_message">添加/管理课程会修改你在图书馆系统中的课程订阅（上限 10 门），属写操作，本应用暂不代办。请前往图书馆书目检索系统办理。</string>
+
+    <!-- 底部导航 -->
+
+    <!-- 通用错误 -->
+    <string name="error_session_expired">登录状态已失效</string>
+    <string name="error_network">网络请求失败</string>
+    <string name="error_load_failed">加载失败</string>
+    <string name="error_no_host">无法解析图书馆服务器地址，请检查网络</string>
+    <string name="error_timeout">连接图书馆服务器超时</string>
+    <string name="error_refused">连不上图书馆服务器。该地址仅限校园网访问，请确认已连接校园网或学校 VPN</string>
+    <string name="error_not_logged_in">尚未登录</string>
+    <string name="webonly_fallback_title">需前往图书馆网站办理</string>
+    <string name="error_login_page_changed">图书馆登录页结构有变化，暂时无法登录</string>
+    <string name="error_captcha_failed">验证码图片下载失败</string>
+    <string name="error_password_encode">密码编码失败</string>
+    <string name="error_login_ineffective">登录未生效，请重试</string>
+    <string name="error_captcha_fetch">验证码获取失败，请检查网络</string>
+    <string name="error_login_failed">登录失败，请重试</string>
+    <string name="notice_empty">暂无消息通知</string>
+    <string name="notice_hint">消息来自图书馆「信息发布」，需连接校园网（或学校 VPN）才能刷新。</string>
+    <string name="notice_cat_hold_arrived">预约到书</string>
+    <string name="notice_cat_delegate_arrived">委托到书</string>
+    <string name="notice_cat_overdue_fine">超期欠款</string>
+    <string name="notice_cat_overdue_return">超期催还</string>
+    <string name="notice_cat_announcement">信息公告</string>
+    <string name="hot_empty">暂无推荐书目</string>
+    <string name="hot_default_metric">热度</string>
+    <string name="reminder_expiring">即将过期</string>
+    <string name="reminder_overdue">已超期</string>
+    <string name="loan_empty">当前没有在借图书</string>
+    <string name="action_view_all">查看全部</string>
+    <string name="action_all">全部</string>
+    <string name="action_back">返回</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_clear">清空</string>
+    <string name="action_search">搜索</string>
+    <string name="action_retry">重试</string>
+    <string name="action_relogin">重新登录</string>
+    <string name="mine_web_section">以下需到图书馆网站办理</string>
+    <string name="reader_fallback_name">读者</string>
+    <string name="field_cert_no">证件号</string>
+    <string name="field_reader_type">读者类型</string>
+    <string name="field_department">系别</string>
+    <string name="field_max_books">最大可借</string>
+    <string name="field_max_holds">最大可预约</string>
+    <string name="field_max_delegates">最大可委托</string>
+    <string name="field_barcode">条码号</string>
+    <string name="field_loan_date">借阅日期</string>
+    <string name="field_due_date">应还日期</string>
+    <string name="field_return_date">归还日期</string>
+    <string name="field_location">馆藏地</string>
+    <string name="field_shelf">书架</string>
+    <string name="field_author">责任者</string>
+    <string name="field_publisher">出版社</string>
+    <string name="field_pub_date">出版日期</string>
+    <string name="field_call_no">索书号</string>
+    <string name="field_status">状态</string>
+    <string name="field_publication">出版信息</string>
+    <string name="field_asord_date">荐购日期</string>
+    <string name="field_asord_status">荐购状态</string>
+    <string name="field_note">处理备注</string>
+    <string name="field_hold_date">预约日期</string>
+    <string name="field_deadline">截止日期</string>
+    <string name="field_pickup_place">取书地</string>
+    <string name="field_delegate_date">委托日期</string>
+    <string name="field_change_type">变化类型</string>
+    <string name="field_credit_date">积分日期</string>
+    <string name="field_credit_note">积分备注</string>
+    <string name="credit_decrease">减</string>
+    <string name="greeting_morning">早上好</string>
+    <string name="greeting_forenoon">上午好</string>
+    <string name="greeting_noon">中午好</string>
+    <string name="greeting_afternoon">下午好</string>
+    <string name="greeting_evening">晚上好</string>
+    <string name="greeting_late_night">夜深了</string>
+    <string name="error_captcha_decode">验证码图片解析失败</string>
+    <string name="login_err_number">请输入学号或证件号</string>
+    <string name="login_err_password">请输入密码</string>
+    <string name="login_err_captcha">请输入图片中的 4 位验证码</string>
+    <string name="login_err_captcha_refreshed">验证码已刷新，请重新输入图片中的验证码</string>
+    <string name="discover_tab_class">分类浏览</string>
+    <string name="discover_tab_newbook">新书通报</string>
+    <string name="discover_tab_periodical">期刊导航</string>
+    <string name="discover_tab_subject">学科参考</string>
+    <string name="discover_pick_class_first">请先选择分类</string>
+    <string name="discover_empty_class_books">该分类下暂无书目</string>
+    <string name="discover_empty_class_newbooks">该分类下暂无新书</string>
+    <string name="discover_empty_classes">暂无分类</string>
+    <string name="discover_change_subject">换学科</string>
+    <string name="discover_empty_subjects">暂无学科</string>
+    <string name="discover_empty_subject_books">没有找到该学科的相关书目</string>
+    <string name="peri_tab_pinyin">刊名拼音</string>
+    <string name="peri_tab_letter">西文字母</string>
+    <string name="peri_tab_class">学科导航</string>
+    <string name="peri_tab_year">年度订购</string>
+    <string name="common_empty_record">暂无记录</string>
+    <string name="asord_tab_history">荐购历史</string>
+    <string name="asord_tab_submit">读者荐购</string>
+    <string name="asord_tab_catalog">新书目录推荐</string>
+    <string name="webonly_no_write_hint">本应用不会代你提交任何操作。</string>
+    <string name="error_no_browser">没有找到可以打开网页的应用</string>
+    <string name="reader_unknown_section">未知栏目</string>
+    <string name="reader_webonly_notice">该栏目有内容，但本应用暂不支持在手机端展示，请前往图书馆网站查看。</string>
+    <string name="book_detail_title">书目详情</string>
+    <string name="book_detail_fields">书目信息</string>
+    <string name="book_detail_holdings">馆藏信息</string>
+    <string name="book_detail_empty">未能解析到该书目的更多信息</string>
+    <string name="book_empty">暂无书目</string>
+    <string name="search_empty">没有找到相关书目</string>
+    <string name="search_advanced_hide">收起</string>
+    <string name="search_advanced_show">高级选项</string>
+    <string name="search_field_label">检索项</string>
+    <string name="search_match_label">匹配方式</string>
+    <string name="search_guide">可展开「高级选项」按题名、责任者、主题词、ISBN、出版社或索书号检索。</string>
+    <string name="search_recent">最近搜索</string>
+    <string name="offline_no_network">离线数据 · 未连接校园网</string>
+    <string name="search_field_title">题名</string>
+    <string name="search_field_keyword">主题词</string>
+    <string name="search_field_isbn">ISBN-ISSN</string>
+    <string name="search_match_forward">前方一致</string>
+    <string name="search_match_full">完全匹配</string>
+    <string name="search_match_any">任意匹配</string>
+    <string name="search_criteria">检索项：%1$s　匹配：%2$s</string>
+    <string name="notice_field_index">第 %1$d 项</string>
+    <string name="due_overdue_days">已超期 %1$d 天</string>
+    <string name="due_today">今天到期</string>
+    <string name="due_remaining_days">还剩 %1$d 天</string>
+    <string name="hot_borrow_count">借阅 %1$s</string>
+    <string name="loan_total_count">共 %1$d 本</string>
+    <string name="loan_due">应还 %1$s</string>
+    <string name="discover_subject_books">「%1$s」相关书目</string>
+    <string name="offline_updated_at">离线数据 · 更新于 %1$s</string>
+    <string name="reader_due_date">应还日期：%1$s</string>
+    <string name="search_result_count">「%1$s」的检索结果：%2$d 条</string>
+    <string name="book_row_call_no">索书号：%1$s</string>
+    <string name="book_row_holding">馆藏：%1$s</string>
+    <string name="book_row_loan_count">借阅 %1$s 册次</string>
+    <string name="unit_day">日</string>
+    <string name="login_type_cert_no">证件号</string>
+    <string name="login_type_bar_no">条码号</string>
+    <string name="login_type_email">Email</string>
+    <string name="hot_tab_lend">热门借阅</string>
+    <string name="hot_tab_score">热门评分</string>
+    <string name="hot_tab_shelf">热门收藏</string>
+    <string name="hot_tab_book">热门图书</string>
+    <string name="settings_section_language">语言</string>
+    <string name="settings_language">界面语言</string>
+    <string name="error_server">图书馆服务器返回错误，请稍后重试</string>
+</resources>
