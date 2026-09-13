@@ -238,6 +238,6 @@ ui/
 
 ---
 
-## AIGC
+## AIGC使用
 
 本项目使用AIGC开发，使用的模型为Deepseek-V4.1
