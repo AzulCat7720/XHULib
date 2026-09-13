@@ -12,6 +12,8 @@
 
 点击[这里](https://github.com/AzulCat7720/XHULib/releases/download/v1.0.0/XHULib_v1.0.0.apk)下载最新版本。
 
+Click [here](https://github.com/AzulCat7720/XHULib/releases/download/v1.0.0/XHULib_v1.0.0.apk) to download.
+
 ---
 
 ## ⚠️ 使用前提
