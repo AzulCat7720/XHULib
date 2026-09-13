@@ -12,7 +12,7 @@
 本项目采用 **GNU General Public License v3.0** 授权，完整条款见 [`LICENSE`](LICENSE)。
 你可以自由使用、修改、再分发，但**基于本项目的衍生作品也必须以 GPL-3.0 开源**。
 
-点击这里下载最新版本。
+点击(这里)[https://github.com/AzulCat7720/XHULib/releases/download/v1.0.0/XHULib_v1.0.0.apk]下载最新版本。
 
 ---
 
